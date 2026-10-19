@@ -30,3 +30,32 @@
 | Lucide React | Іконки інтерфейсу |
 | ESLint | Перевірка якості коду |
 
+## Встановлення та запуск
+
+### 1. Клонування репозиторію
+
+```bash
+git clone https://github.com/Bohdan99I/My_Financial_Calculation.git
+cd My_Financial_Calculation
+```
+
+### 2. Встановлення залежностей
+
+```bash
+npm install
+```
+
+### 3. Налаштування змінних середовища
+
+Створи файл `.env` у кореневій директорії проєкту:
+
+```env
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+Заміни значення на відповідні параметри свого проєкту Supabase.
+
+> **Безпека:** не додавай файл `.env` до Git-репозиторію. Для клієнтського застосунку використовуй лише призначений для клієнтів публічний ключ Supabase. Не зберігай секретний `service_role` ключ у фронтенді.
+
+### 4. Налаштування бази даних
