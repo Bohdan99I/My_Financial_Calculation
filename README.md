@@ -77,3 +77,23 @@ http://localhost:5173
 ```
 
 ### 6. Перевірка коду
+
+Запуск ESLint:
+
+```bash
+npm run lint
+```
+
+Створення production-збірки:
+
+```bash
+npm run build
+```
+
+Попередній перегляд production-збірки:
+
+```bash
+npm run preview
+```
+
+## Структура проєкту
