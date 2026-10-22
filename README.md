@@ -97,3 +97,36 @@ npm run preview
 ```
 
 ## Структура проєкту
+
+```text
+My_Financial_Calculation/
+├── src/
+│   ├── components/
+│   │   ├── ConfirmDialog.tsx
+│   │   ├── Filters.tsx
+│   │   ├── Modal.tsx
+│   │   ├── MonthNav.tsx
+│   │   ├── OperationForm.tsx
+│   │   ├── OperationList.tsx
+│   │   ├── SettingsModal.tsx
+│   │   └── Statistics.tsx
+│   ├── lib/
+│   │   ├── categories.ts
+│   │   ├── excel.ts
+│   │   └── store.ts
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   ├── supabaseClient.ts
+│   ├── types.ts
+│   └── vite-env.d.ts
+├── supabase/
+│   └── migrations/
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── vite.config.ts
+```
+
+## Модель даних
