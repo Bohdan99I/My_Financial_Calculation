@@ -128,5 +128,4 @@ My_Financial_Calculation/
 ├── tsconfig.json
 └── vite.config.ts
 ```
-
 ## Модель даних
