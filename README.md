@@ -179,3 +179,8 @@ My_Financial_Calculation/
 - розширення можливостей експорту даних.
 
 ## Автор
+
+**Bohdan Voitov**
+
+- GitHub: [Bohdan99I](https://github.com/Bohdan99I)
+- Репозиторій проєкту: [My_Financial_Calculation](https://github.com/Bohdan99I/My_Financial_Calculation)
